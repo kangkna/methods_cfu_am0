@@ -49,9 +49,7 @@ puts square (5)
 # What data type was your argument(s)?
 
 def greet_person (first, middle, last)
-  puts first
-  puts middle
-  puts last
+  puts "Hello my name is"+ first + middle+ last
 end
 
 puts greet_person ("Sam", "Adam", "King")
